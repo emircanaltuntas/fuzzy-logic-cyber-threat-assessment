@@ -79,6 +79,17 @@ python test_scenarios.py
 | Tamamen normal | 5% | 1 | 0.5 | Guvenli |
 | Maksimum tehdit | 95% | 48 | 9.8 | Kritik |
 
+## Ekran Goruntuleri
+
+### Arayuz ve Sonuc Ekrani
+![Arayuz Genel](screenshots/arayuz_genel.png)
+
+### Uyelik Fonksiyonlari Grafikleri
+![Uyelik Fonksiyonlari](screenshots/uyelik_fonksiyonlari.png)
+
+### Aktif Kurallar ve Cikis
+![Aktif Kurallar](screenshots/aktif_kurallar.png)
+
 ## Proje Yapisi
 
 ```
@@ -90,6 +101,10 @@ fuzzy-logic-cyber-threat-assessment/
 ├── config.py               # Sistem parametreleri ve kurallar
 ├── tests/
 │   └── test_scenarios.py   # Test senaryolari
+├── screenshots/
+│   ├── arayuz_genel.png
+│   ├── uyelik_fonksiyonlari.png
+│   └── aktif_kurallar.png
 └── .gitignore
 ```
 
